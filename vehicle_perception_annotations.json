@@ -1,0 +1,60 @@
+{
+  "project": "Autonomous Vehicle Perception Dataset",
+  "annotator": "Haley Amanda Vera",
+  "date": "2024-06-12",
+  "image_id": "frame_00482_urban.jpg",
+  "dataset_partition": "training",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "annotations": [
+    {
+      "annotation_id": "ann_001",
+      "label": "Sedan",
+      "type": "polygon",
+      "points": [
+        [412, 618],
+        [687, 615],
+        [702, 789],
+        [398, 794]
+      ],
+      "confidence_score": 0.98,
+      "qa_status": "Approved",
+      "notes": "Clean polygon with tight bounds. No occlusion."
+    },
+    {
+      "annotation_id": "ann_002",
+      "label": "Pedestrian",
+      "type": "bounding_box",
+      "bbox": {
+        "x_min": 1245,
+        "y_min": 502,
+        "width": 48,
+        "height": 132
+      },
+      "confidence_score": 0.97,
+      "qa_status": "Approved",
+      "notes": "Correctly labeled adult pedestrian in motion."
+    },
+    {
+      "annotation_id": "ann_003",
+      "label": "Traffic Light",
+      "type": "bounding_box",
+      "bbox": {
+        "x_min": 1580,
+        "y_min": 210,
+        "width": 28,
+        "height": 64
+      },
+      "confidence_score": 0.99,
+      "qa_status": "Approved",
+      "notes": "Clear visibility, correct class."
+    }
+  ],
+  "quality_metrics": {
+    "iou_score": 0.991,
+    "accuracy_standard": "99%",
+    "verifier_feedback": "Passed internal QA review. High precision on all objects."
+  }
+}
