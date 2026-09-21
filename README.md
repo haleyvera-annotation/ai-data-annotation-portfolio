@@ -36,3 +36,5 @@ Computer Science
 ## Certifications
 - Virtual Assistance Program (ALX)
 - EF SET English Certificate
+- ## Annotation Example
+The file `vehicle_perception_annotations.json` shows the annotation format and quality standards applied in previous computer vision projects, including polygon and bounding box labeling with high IoU scores.
